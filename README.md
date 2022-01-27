@@ -27,26 +27,26 @@
 
 ### script&vue 片段
 
-|      Prefix      |                Snippets content                |
-| :--------------: | :--------------------------------------------: |
-|      Import      |           `import {...} from '...'`            |
-|       Data       |             `data(){return {...}}`             |
-|      Setup       |           `setup(){...return{...}}`            |
-|      vText       |                 `v-text="..."`                 |
-|      vHtml       |                 `v-html="..."`                 |
-|      vShow       |                 `v-show="..."`                 |
-|       vIf        |                  `v-if="..."`                  |
-|      velse       |                    `v-else`                    |
-|     velseif      |               `v-else-if="..."`                |
-|       vFor       |        `v-for="... in ..."  :key="..."`        |
-| vFor(withoutKey) |              `v-for="... in ..."`              |
-|       vOn        |                  `v-on="..."`                  |
-|      vBind       |                 `v-bind="..."`                 |
-|      vModel      |                `v-model="..."`                 |
-|      vSlot       |                 `v-slot="..."`                 |
-|      vOnce       |                    `v-once`                    |
-|   iscomponent    |      `<component :is="..."></component>`       |
-|    **vprops**    | `const props = defineProps({   foo: String })` |
-|    **vemits**    |   `const emit = defineEmits(['...', '...'])`   |
+|      Prefix      |               Snippets content               |
+| :--------------: | :------------------------------------------: |
+|      Import      |          `import {...} from '...'`           |
+|       Data       |            `data(){return {...}}`            |
+|      Setup       |          `setup(){...return{...}}`           |
+|      vText       |                `v-text="..."`                |
+|      vHtml       |                `v-html="..."`                |
+|      vShow       |                `v-show="..."`                |
+|       vIf        |                 `v-if="..."`                 |
+|      velse       |                   `v-else`                   |
+|     velseif      |              `v-else-if="..."`               |
+|       vFor       |       `v-for="... in ..." :key="..."`        |
+| vFor(withoutKey) |             `v-for="... in ..."`             |
+|       vOn        |                 `v-on="..."`                 |
+|      vBind       |                `v-bind="..."`                |
+|      vModel      |               `v-model="..."`                |
+|      vSlot       |                `v-slot="..."`                |
+|      vOnce       |                   `v-once`                   |
+|   iscomponent    |     `<component :is="..."></component>`      |
+|    **vprops**    | `const props = defineProps({ foo: String })` |
+|    **vemits**    |  `const emit = defineEmits(['...', '...'])`  |
 
 **Enjoy!**

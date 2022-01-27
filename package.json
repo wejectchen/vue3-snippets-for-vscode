@@ -2,7 +2,7 @@
     "name": "vue3-snippets-for-vscode",
     "displayName": "vue3-snippets-for-vscode",
     "description": "a vue3 snippets for vscode",
-    "version": "0.0.3",
+    "version": "0.0.30",
     "publisher": "wejectchan",
     "icon": "assets/logo.png",
     "keywords": [
