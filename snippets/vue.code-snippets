@@ -1,6 +1,6 @@
 {
 	"vinit": {
-		"prefix": ".vue",
+		"prefix": "vueinit",
 		"body": [
 			"<template>",
 			"\t\t$0",
@@ -16,29 +16,69 @@
 		],
 		"description": "vue模版初始化(默认setup语法糖和ts)"
 	},
-	"templateLang": {
+	"template": {
 		"prefix": "template",
-		"body": ["<template>", "\t<div$2>", "\t\t$0", "\t</div>", "</template>"],
+		"body": [
+			"<template>",
+			"\t<div$2>",
+			"\t\t$0",
+			"\t</div>",
+			"</template>"
+		],
 		"description": "template模版"
 	},
 	"script": {
 		"prefix": "script",
-		"body": ["<script>", "export default {", "\t$0", "}", "</script>"],
+		"body": [
+			"<script setup lang=\"ts\">",
+			"\t$0",
+			"</script>"
+		],
 		"description": "script模版"
 	},
 	"style": {
 		"prefix": "style",
-		"body": ["<style lang=\"$1\">", "\t$0", "</style>"],
+		"body": [
+			"<style lang=\"$0\" scoped>",
+			"\t",
+			"</style>"
+		],
 		"description": "style element with lang attribute"
 	},
 	"styleCss": {
 		"prefix": "css",
-		"body": ["<style>", "\t$0", "</style>"],
+		"body": [
+			"<style scoped>",
+			"\t$0",
+			"</style>"
+		],
 		"description": "css style"
 	},
+	"styleScss": {
+		"prefix": "scss",
+		"body": [
+			"<style lang=\"scss\" scoped>",
+			"\t$0",
+			"</style>"
+		],
+		"description": "Scss style"
+	},
 	"styleSass": {
-		"prefix": "style lang=\"scss\"",
-		"body": ["<style lang=\"$1\">", "\t$0", "</style>"],
+		"prefix": "sass",
+		"body": [
+			"<style lang=\"sass\" scoped>",
+			"\t$0",
+			"</style>"
+		],
 		"description": "Sass style"
-	}
+	},
+	"styleLess": {
+		"prefix": "less",
+		"body": [
+			"<style lang=\"less\" scoped>",
+			"\t$0",
+			"</style>"
+		],
+		"description": "Less style"
+	},
 }
