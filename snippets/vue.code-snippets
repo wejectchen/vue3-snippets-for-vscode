@@ -1,0 +1,44 @@
+{
+	"vinit": {
+		"prefix": ".vue",
+		"body": [
+			"<template>",
+			"\t\t$0",
+			"</template>",
+			"\t",
+			"<script setup lang='ts'>",
+			"\t",
+			"</script>",
+			"\t",
+			"<style>",
+			"\t",
+			"</style>"
+		],
+		"description": "vue模版初始化(默认setup语法糖和ts)"
+	},
+	"templateLang": {
+		"prefix": "template",
+		"body": ["<template>", "\t<div$2>", "\t\t$0", "\t</div>", "</template>"],
+		"description": "template模版"
+	},
+	"script": {
+		"prefix": "script",
+		"body": ["<script>", "export default {", "\t$0", "}", "</script>"],
+		"description": "script模版"
+	},
+	"style": {
+		"prefix": "style",
+		"body": ["<style lang=\"$1\">", "\t$0", "</style>"],
+		"description": "style element with lang attribute"
+	},
+	"styleCss": {
+		"prefix": "css",
+		"body": ["<style>", "\t$0", "</style>"],
+		"description": "css style"
+	},
+	"styleSass": {
+		"prefix": "style lang=\"scss\"",
+		"body": ["<style lang=\"$1\">", "\t$0", "</style>"],
+		"description": "Sass style"
+	}
+}
