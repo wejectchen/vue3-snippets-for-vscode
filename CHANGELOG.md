@@ -1,5 +1,15 @@
 # Change Log
 
+## [0.0.3] - 2022-01-27
+
+### Added
+
+- 增加部分vue3 API片段功能
+
+### Changed
+
+- 更新 readme 文档
+
 ## [0.0.2] - 2022-01-27
 
 ### Changed

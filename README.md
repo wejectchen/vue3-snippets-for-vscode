@@ -6,35 +6,47 @@
 
 ## 大概这样用
 
-<img src="https://inews.gtimg.com/newsapp_ls/0/14470097784/0.gif" style="zoom: 40%;" />
+<img src="https://raw.githubusercontent.com/wejectchen/vue3-snippets-for-vscode/master/assets/guide.gif" style="zoom: 40%;" />
 
 # 特性
 
 目前支持的代码片段
 
-
-
 ### 模版片段
 
-|  Prefix  |                       Snippets content                       |
-| :------: | :----------------------------------------------------------: |
+|  Prefix  |                            Snippets content                             |
+| :------: | :---------------------------------------------------------------------: |
 |   vue3   | `<template></template><script setup lang="ts"></script><style></style>` |
-| template |              `<template><div></div></template>`              |
-| scripte  |             `<script setup lang="ts"></script>`              |
-|  style   |                  `<style lang=""></style>`                   |
-|   css    |                   `<style scoped></style>`                   |
-|   scss   |                `<style lang="scss"></style>`                 |
-|   Sass   |                `<style lang="sass"></style>`                 |
-|   Less   |                `<style lang="less"></style>`                 |
+| template |                   `<template><div></div></template>`                    |
+| scripte  |                   `<script setup lang="ts"></script>`                   |
+|  style   |                        `<style lang=""></style>`                        |
+|   css    |                        `<style scoped></style>`                         |
+|   scss   |                      `<style lang="scss"></style>`                      |
+|   Sass   |                      `<style lang="sass"></style>`                      |
+|   Less   |                      `<style lang="less"></style>`                      |
 
-### script片段
+### script&vue 片段
 
-| Prefix |     Snippets content      |
-| :----: | :-----------------------: |
-| Import | `import {...} from '...'` |
-|  Data  |  `data(){return {...}}`   |
-| Setup  | `setup(){...return{...}}` |
-
-
+|      Prefix      |                Snippets content                |
+| :--------------: | :--------------------------------------------: |
+|      Import      |           `import {...} from '...'`            |
+|       Data       |             `data(){return {...}}`             |
+|      Setup       |           `setup(){...return{...}}`            |
+|      vText       |                 `v-text="..."`                 |
+|      vHtml       |                 `v-html="..."`                 |
+|      vShow       |                 `v-show="..."`                 |
+|       vIf        |                  `v-if="..."`                  |
+|      velse       |                    `v-else`                    |
+|     velseif      |               `v-else-if="..."`                |
+|       vFor       |        `v-for="... in ..."  :key="..."`        |
+| vFor(withoutKey) |              `v-for="... in ..."`              |
+|       vOn        |                  `v-on="..."`                  |
+|      vBind       |                 `v-bind="..."`                 |
+|      vModel      |                `v-model="..."`                 |
+|      vSlot       |                 `v-slot="..."`                 |
+|      vOnce       |                    `v-once`                    |
+|   iscomponent    |      `<component :is="..."></component>`       |
+|    **vprops**    | `const props = defineProps({   foo: String })` |
+|    **vemits**    |   `const emit = defineEmits(['...', '...'])`   |
 
 **Enjoy!**

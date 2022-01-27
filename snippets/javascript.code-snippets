@@ -27,6 +27,122 @@
             "\t}",
             "},"
         ],
-        "description": "data实例"
+        "description": "setup"
+    },
+    "v-text": {
+        "prefix": "vText",
+        "body": [
+            "v-text=\"${1:msg}\""
+        ],
+        "description": "Expects: string. Updates the element’s textContent."
+    },
+    "v-html": {
+        "prefix": "vHtml",
+        "body": [
+            "v-html=\"${1:html}\""
+        ],
+        "description": "Expects: string. Updates the element’s innerHTML."
+    },
+    "v-show": {
+        "prefix": "vShow",
+        "body": [
+            "v-show=\"${1:condition}\""
+        ],
+        "description": "Expects: any"
+    },
+    "v-if": {
+        "prefix": "vIf",
+        "body": [
+            "v-if=\"${1:condition}\""
+        ],
+        "description": "Expects: any"
+    },
+    "v-else": {
+        "prefix": "vElse",
+        "body": [
+            "v-else"
+        ],
+        "description": "Does not expect expression. previous sibling element must have v-if or v-else-if."
+    },
+    "v-else-if": {
+        "prefix": "vElseIf",
+        "body": [
+            "v-else-if=\"${1:condition}\""
+        ],
+        "description": "Expects: any. previous sibling element must have v-if or v-else-if."
+    },
+    "v-for-without-key": {
+        "prefix": "vForWithoutKey",
+        "body": [
+            "v-for=\"${1:item} in ${2:items}\""
+        ],
+        "description": "Expects: Array | Object | number | string"
+    },
+    "v-for": {
+        "prefix": "vFor",
+        "body": [
+            "v-for=\"(${1:item}, ${2:index}) in ${3:items}\" :key=\"${4:index}\""
+        ],
+        "description": "Expects: Array | Object | number | string"
+    },
+    "v-on": {
+        "prefix": "vOn",
+        "body": [
+            "v-on:${1:event}=\"${2:handle}\""
+        ],
+        "description": "Expects: Function | Inline Statement"
+    },
+    "v-bind": {
+        "prefix": "vBind",
+        "body": [
+            "v-bind$1=\"${2}\""
+        ],
+        "description": "Expects: any (with argument) | Object (without argument)"
+    },
+    "v-model": {
+        "prefix": "vModel",
+        "body": [
+            "v-model=\"${1:something}\""
+        ],
+        "description": "Expects: varies based on value of form inputs element or output of components"
+    },
+    "v-slot": {
+        "prefix": "vSlot",
+        "body": [
+            "v-slot$1=\"${2}\""
+        ],
+        "description": "Expects: JavaScript expression that is valid in a function argument position (supports destructuring in supported environments). Optional - only needed if expecting props to be passed to the slot."
+    },
+    "v-once": {
+        "prefix": "vOnce",
+        "body": [
+            "v-once"
+        ],
+        "description": "Does not expect expression"
+    },
+    "component": {
+        "prefix": "iscomponent",
+        "body": [
+            "<component :is=\"${1:componentId}\"></component>$0"
+        ],
+        "description": "component element"
+    },
+    "defineProps": {
+        "prefix": "vprops",
+        "body": [
+            "const props = defineProps({\t",
+            "$0 : $1\t",
+            "})",
+        ],
+        "description": "defineProps element"
+    },
+    "defineEmits": {
+        "prefix": "vemits",
+        "body": [
+            "const props = defineEmits([\t",
+            "\"$0\"\t",
+            "])",
+        ],
+        "description": "defineEmits element"
     },
 }
