@@ -2,9 +2,9 @@
     "name": "vue3-snippets-for-vscode",
     "displayName": "vue3-snippets-for-vscode",
     "description": "a vue3 snippets for vscode",
-    "version": "0.0.2",
+    "version": "0.0.21",
     "publisher": "wejectchan",
-    "icon": "assets/log.png",
+    "icon": "assets/logo.png",
     "keywords": [
         "vue",
         "snippets",
@@ -30,6 +30,10 @@
             {
                 "language": "vue",
                 "path": "./snippets/vue.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/javascript.code-snippets"
             }
         ]
     }
