@@ -6,7 +6,7 @@
 
 ## 大概这样用
 
-<img src="https://raw.githubusercontent.com/wejectchen/vue3-snippets-for-vscode/master/assets/guide.gif" style="zoom: 40%;" />
+<img src="https://cdn.jsdelivr.net/gh/wejectchen/vue3-snippets-for-vscode@master/assets/guide.gif?raw=true" style="zoom: 40%;" />
 
 # 特性
 
@@ -14,7 +14,7 @@
 
 ### 模版片段
 
-|  Prefix  |                            Snippets content                             |
+|  关键词  |                                代码片段                                 |
 | :------: | :---------------------------------------------------------------------: |
 |   vue3   | `<template></template><script setup lang="ts"></script><style></style>` |
 | template |                   `<template><div></div></template>`                    |
@@ -27,7 +27,7 @@
 
 ### script&vue 片段
 
-|      Prefix      |               Snippets content               |
+|      关键词      |                   代码片段                   |
 | :--------------: | :------------------------------------------: |
 |      Import      |          `import {...} from '...'`           |
 |       Data       |            `data(){return {...}}`            |
@@ -48,5 +48,17 @@
 |   iscomponent    |     `<component :is="..."></component>`      |
 |    **vprops**    | `const props = defineProps({ foo: String })` |
 |    **vemits**    |  `const emit = defineEmits(['...', '...'])`  |
+
+### vue-router 片段
+
+|      关键词      |                        代码片段                        |
+| :--------------: | :----------------------------------------------------: |
+|    beforeeach    |      `router.beforeEach((to, from, next) =>{...}`      |
+|  beforeresolve   |    `router.beforeResolve((to, from, next) => {...}`    |
+|    afterEach     |         `router.afterEach((to, from) => {...}`         |
+|   beforeenter    |          `beforeEnter(to, from, next) {...}`           |
+| beforeRouteEnter |        `beforeRouteEnter(to, from, next) {...}`        |
+| beforeRouteLeave |        `beforeRouteLeave(to, from, next) {...}`        |
+|      vroute      | `{'path':...,name:...,component: () => import('...')}` |
 
 **Enjoy!**

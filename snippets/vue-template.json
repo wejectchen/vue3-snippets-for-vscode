@@ -1,34 +1,4 @@
 {
-    "import": {
-        "prefix": "import",
-        "body": [
-            "import { $1 } from '$2'"
-        ],
-        "description": "import {...} from ..."
-    },
-    "data": {
-        "prefix": "data",
-        "body": [
-            "data() {",
-            "\treturn {",
-            "\t\t$1",
-            "\t}",
-            "},$0"
-        ],
-        "description": "data实例"
-    },
-    "setup": {
-        "prefix": "setup",
-        "body": [
-            "setup($3,$4) {",
-            "\t$0",
-            "\treturn {",
-            "\t\t$1",
-            "\t}",
-            "},"
-        ],
-        "description": "setup"
-    },
     "v-text": {
         "prefix": "vText",
         "body": [
@@ -36,7 +6,7 @@
         ],
         "description": "Expects: string. Updates the element’s textContent."
     },
-    "v-html": {
+    "vhtml": {
         "prefix": "vHtml",
         "body": [
             "v-html=\"${1:html}\""
@@ -126,23 +96,5 @@
             "<component :is=\"${1:componentId}\"></component>$0"
         ],
         "description": "component element"
-    },
-    "defineProps": {
-        "prefix": "vprops",
-        "body": [
-            "const props = defineProps({\t",
-            "$0 : $1\t",
-            "})",
-        ],
-        "description": "defineProps element"
-    },
-    "defineEmits": {
-        "prefix": "vemits",
-        "body": [
-            "const props = defineEmits([\t",
-            "\"$0\"\t",
-            "])",
-        ],
-        "description": "defineEmits element"
-    },
+    }
 }

@@ -34,7 +34,7 @@
 			"\t$0",
 			"</script>"
 		],
-		"description": "script模版"
+		"description": "script with setup and tslang"
 	},
 	"style": {
 		"prefix": "style",
@@ -80,5 +80,5 @@
 			"</style>"
 		],
 		"description": "Less style"
-	},
+	}
 }

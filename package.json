@@ -2,7 +2,7 @@
     "name": "vue3-snippets-for-vscode",
     "displayName": "vue3-snippets-for-vscode",
     "description": "a vue3 snippets for vscode",
-    "version": "0.0.30",
+    "version": "0.0.33",
     "publisher": "wejectchan",
     "icon": "assets/logo.png",
     "keywords": [
@@ -29,11 +29,27 @@
         "snippets": [
             {
                 "language": "vue",
-                "path": "./snippets/vue.code-snippets"
+                "path": "./snippets/vue.json"
             },
             {
-                "language": "vue",
-                "path": "./snippets/javascript.code-snippets"
+                "language": "html",
+                "path": "./snippets/vue-template.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/vue-script.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/vue-script.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/vue-router.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/vue-router.json"
             }
         ]
     }
