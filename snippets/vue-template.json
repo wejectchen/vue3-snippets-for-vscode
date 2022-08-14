@@ -1,4 +1,15 @@
 {
+    "template": {
+        "prefix": "template",
+        "body": [
+            "<template>",
+            "\t<${1:div}$2>",
+            "\t\t$0",
+            "\t</${1:div}>",
+            "</template>"
+        ],
+        "description": "vue3-template模版"
+    },
     "v-text": {
         "prefix": "vText",
         "body": [

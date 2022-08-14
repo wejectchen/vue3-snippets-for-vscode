@@ -1,6 +1,6 @@
 {
-	"vin3": {
-		"prefix": "vue3",
+	"vue3": {
+		"prefix": "vinit",
 		"body": [
 			"<template>",
 			"\t\t$0",

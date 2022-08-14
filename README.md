@@ -2,7 +2,7 @@
 
 这是一个适配 Vue3 Api 的 snippets 插件
 
-**注意** :本插件可能不能完全不适用于 vue2
+**注意** :本插件可能不完全适用于 vue2
 
 ## 大概这样用
 
@@ -16,7 +16,7 @@
 
 |  关键词  |                                代码片段                                 |
 | :------: | :---------------------------------------------------------------------: |
-|   vue3   | `<template></template><script setup lang="ts"></script><style></style>` |
+|  vinit   | `<template></template><script setup lang="ts"></script><style></style>` |
 | template |                   `<template><div></div></template>`                    |
 | scripte  |                   `<script setup lang="ts"></script>`                   |
 |  style   |                        `<style lang=""></style>`                        |
