@@ -3,6 +3,11 @@
 这是一个适配 Vue3 Api 的 snippets 插件
 
 **新增特性: 支持快速 console.log，方便调试**
+
+-   输入 `clg` 一键开起 console，然后直接输入需要打印的变量即可。
+
+<img src="https://cdn.jsdelivr.net/gh/wejectchen/vue3-snippets-for-vscode@master/assets/clg_guide.gif?raw=true" style="zoom: 30%;" />
+
 **注意** :本插件可能不完全适用于 vue2
 
 ## 大概这样用
@@ -30,6 +35,7 @@
 
 |      关键词      |                   代码片段                   |
 | :--------------: | :------------------------------------------: |
+|       clg        |   `console.log('output->${0}',${0:name})`    |
 |      Import      |          `import {...} from '...'`           |
 |       Data       |            `data(){return {...}}`            |
 |      Setup       |          `setup(){...return{...}}`           |
