@@ -68,5 +68,12 @@
             "},"
         ],
         "description": "computed value"
+    },
+    "console.log": {
+        "prefix": "clg",
+        "body": [
+            "console.log(`output->${0}`,${0:name})"
+        ],
+        "description": "快速打印日志"
     }
 }
